@@ -1,0 +1,9 @@
+Integrating Hugging Face models with LangChain allows you to leverage thousands of open-source models for a wide range of tasks, from text generation to embeddings. A dedicated langchain-huggingface package, jointly maintained by both teams, facilitates this integration. 
+Methods of Integration
+You can integrate Hugging Face models with LangChain in two primary ways:
+1. Using the Hugging Face Inference API (Cloud-Hosted)
+This method uses the Hugging Face API to run models on serverless infrastructure, requiring an API token. 
+Setup:
+Create a free Hugging Face account and get a read-only API token from your profile settings.
+Set the token as an environment variable: os.environ["HUGGINGFACEHUB_API_TOKEN"] = "hf_...".
+Install the necessary library: pip install langchain-huggingface
